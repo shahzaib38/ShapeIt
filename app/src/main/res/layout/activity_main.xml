@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="sb.lib.pikoshapeIt.MainActivity"
+
+    >
+
+
+    <sb.lib.pikoshapeIt.lib.PikoImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:imageScr="@drawable/pikachu"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:piko_margin_bottom="40dp"
+        app:piko_margin_left="40dp"
+        app:piko_margin_right="40dp"
+        app:piko_margin_top="40dp"
+
+        app:top_left_cornor_radius ="0dp"
+        app:top_right_cornor_radius ="200dp"
+        app:bottom_left_cornor_radius ="0dp"
+        app:bottom_right_cornor_radius ="300dp"
+        app:shape="1"
+
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
